@@ -7,8 +7,8 @@ spring:
       server: 
         git:
           uri: https://github.com/juan759/config-data.git 
-          search-paths: config-data/api
-          default-label: "master"
+          search-paths: api
+          default-label: main
           
   security:
     user:
